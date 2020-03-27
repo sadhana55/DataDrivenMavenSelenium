@@ -16,7 +16,7 @@ public class LoginTest extends TestBase{
 	
 	@Test
 	public void loginTest() throws InterruptedException, IOException{
-		
+		//just login
 		if(!TestUtil.isTestRunnable("loginTest", excel)) {
 			throw new SkipException("Skipping the test "+"loginTest".toUpperCase()+" as the RunMode is NO");
 		}
